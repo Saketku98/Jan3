@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="landingpage.css">
+</head>
+<body>
+    <div class="main">
+        
+        <form>
+            <!-- <h3 style="text-align: center;"> Servey From </h3> -->
+            
+            <table>
+                
+                
+                        <label>
+                            Name
+                        </label>
+                    
+                    
+                    <tr>
+                    <td>
+                        <input type="text" placeholder="Enter Your full Name" name="name" id="name" required minlength="3" pattern="[a-Z]"/>
+                    </td>
+                </tr>
+                
+
+            
+            <tr>
+                <td>
+                    <label>
+                        E-mail
+                    </label>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                    <input type="gmail" placeholder="Enter Your Gmail" name="gmail" id="gmail" required  pattern=".+@gmail.com"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>
+                    Mobile
+                    </label>
+                </td>
+                
+                </tr>
+
+                <tr>
+                <td>
+                    <input type="tel"  placeholder="Enter Your Mobile Number" name="mb" id="mb" required minlength="10" maxlength="10" pattern="[0-9]{10}"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>
+                        Gender:
+                    </label>
+                    <br>
+                    <label>
+                        Male
+                    </label>
+                    <input type="radio"  name="gen" id="gen"/>
+                
+                    <label> Female</label>
+                    <input type="radio"  name="gen" id="gen"/>
+                    <label> Other</label>
+                    <input type="radio" name="gen" id="gen"/>
+               
+                   </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>
+                        Address
+                    </label>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                    <input type="text"  placeholder="Enter Your Address" name="adr" id="adr" required  pattern=
+                    "[a-Z]{0-9}"/>
+                </td>
+            </tr>
+        
+            <tr>
+            
+            <td>
+                <label>
+                     State
+                </label>
+            </td>
+            </tr>
+            <tr>
+            <td>
+                <select  class="select">
+                    <option> Maharastra</option>
+                    <option>
+                        Gujarat
+                    </option>
+                    <option>
+                        Bihar
+                    </option>
+                    <option>
+                        Tamilnadu
+                    </option>
+                    <option>
+                        kerala
+                    </option>
+                </select>
+            </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <label>
+                        Subject
+                    </label>
+                    <br>
+                    <label>Fullstack </label>
+                    <input type="checkbox"   name="chk" id="chk"/>
+                    <label>
+                        Mern Stack
+                    </label>
+                
+                    <input type="checkbox" name ="chk" id="chk"/>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>
+                    <label>
+                        Mern Stack
+                    </label>
+            
+                    <input type="checkbox" name="chk" id="chk"/>
+                    <label> Python</label>
+                    <input type="checkbox" name="chk" id="chk"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Describe Skills</label>
+                
+                    <textarea  id="tx" cols="10" rows="5"></textarea>
+                </td>
+            </tr>
+
+                        
+            <tr >
+                <td>
+                    <input  id="btn"type="submit" value="Register"  />
+                    <input  id="btn1"type="reset" value="Reset"/>
+
+                    </button>
+                        
+                    
+                </td>
+                  </tr>
+  
+       
+            </table>
+       
+        </form>
+    </div>
+</body>
+
+</html> 
